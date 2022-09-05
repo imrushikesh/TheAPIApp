@@ -1,0 +1,38 @@
+
+.main{
+    background-color: #0b0d0f;
+    height: auto;
+}
+.head{
+    color: aliceblue;
+    margin-top: 5%;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.appName{
+    font-size: 5rem;
+    font-weight: 100;
+    font-variant: unicase;
+}
+
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+   max-width: 300px;
+height: fit-content;
+    border: 4px solid rgb(47, 47, 47);
+    background: #0b0d0f;
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    margin:20px;
+	transform: rotate(1deg);
+	transform: skew(-1deg,1deg);
+	transition: transform .15s;
+	z-index: 1;
+}
+
+
